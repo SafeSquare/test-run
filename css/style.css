@@ -48,8 +48,17 @@
   background-color: #F1ECE6 !important;
 }
 
+/* vendor register button */
+.orange-btn {
+  background-color: #F5820E !important;
+  color: #ffffff !important;
+  /* padding-left: 50px !important;
+  padding-right: 50px !important; */
+}
+
 #sec-two {
   background-color: #FFF0E1;
+  overflow: hidden;
 }
 
 .family-one {
@@ -60,12 +69,12 @@
 .family-two {
   font-size: 15px !important;
   font-weight: 150px !important;
-  font-family:  sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 .family-three {
   font-size: 18px !important;
-  font-family:  sans-serif !important;
+  font-family: sans-serif !important;
 }
 
 #sec-five {
