@@ -7,16 +7,57 @@
   font-family: Playfair Display;
 }
 
+.site-logo {
+  font-family: sans-serif;
+}
+
+.bg-color {
+  background-color: #FAC086;
+}
+
 #bg-image {
-  opacity: 0.9;
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   background-position: center;
   background: url(../img/bg-image.png)
 }
 
-.site-logo {
-  font-family: sans-serif;
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 75%;
+  top: 80%;
+  left: 50%;
+}
+
+.private-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-115%, -30%);
+}
+
+.charity-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  top: 70%;
+  left: 100%;
+  transform: translate(-115%, -30%);
+}
+
+.catering-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  left: 10%;
+  transform: translate(0%, -120%);
+}
+
+.photography-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  left: 55%;
+
+  transform: translate(0%, -120%);
 }
 
 /* Get started button */
@@ -29,6 +70,7 @@
 
 /* Subscribe button */
 .btn-success {
+  border: none!important;
   color: #ffffff !important;
   background-color: #F5820E !important;
   padding-left: 50px !important;
@@ -49,7 +91,17 @@
 }
 
 #sec-two {
+  overflow: hidden;
   background-color: #FFF0E1;
+}
+
+
+#sec-five {
+  background-color: #3A3A3A;
+}
+
+#sec-six {
+  background-color: #626262;
 }
 
 .family-one {
@@ -68,13 +120,7 @@
   font-family:  sans-serif !important;
 }
 
-#sec-five {
-  background-color: #3A3A3A;
-}
 
-#sec-six {
-  background-color: #626262;
-}
 
 
 
