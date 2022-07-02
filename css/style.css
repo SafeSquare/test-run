@@ -48,18 +48,49 @@
   background-color: #F1ECE6 !important;
 }
 
-/* vendor register button */
-.orange-btn {
-  background-color: #F5820E !important;
-  color: #ffffff !important;
-  /* padding-left: 50px !important;
-  padding-right: 50px !important; */
-}
-
 #sec-two {
   background-color: #FFF0E1;
   overflow: hidden;
 }
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 75%;
+  top: 80%;
+  left: 50%;
+}
+
+.private-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-115%, -30%);
+}
+
+.charity-overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40%;
+  top: 70%;
+  left: 100%;
+  transform: translate(-115%, -30%);
+}
+
+.catering-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  left: 10%;
+  transform: translate(0%, -120%);
+}
+
+.photography-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 35%;
+  left: 55%;
+
+  transform: translate(0%, -120%);
+}
+
 
 .family-one {
   font-size: 22px !important;
@@ -84,9 +115,3 @@
 #sec-six {
   background-color: #626262;
 }
-
-
-
-
-
-
